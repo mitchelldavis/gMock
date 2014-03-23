@@ -8,11 +8,11 @@ Building
 --------
 This is a mirror for google's c/c++ testing and mocking framework.  I've placed it here for easy git access.
 
-_Building for MinGW_
+*Building for MinGW*
 
     CMake -G"MinGW Makefiles" -Dgtest_disable_pthreads:BOOL="1"    
 
-_Note_
+*Note*
 
 If an error comes up because sh.exe is on the path, you simply need to call the above command from a prompt that doesn't have sh.exe on the path.
 
